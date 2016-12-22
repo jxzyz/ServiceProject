@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>课程评价</title>
+</head>
+<link rel="stylesheet" href="../commentView_files/main.css">
+<link rel="stylesheet"
+	href="../commentView_files/comment_eaaf64a56a.css">
+<style>
+#writecomment {
+	width: 60%;
+	height: 500px;
+	margin: 2% 0 0 20%;
+	background-color: #fff;
+}
+
+#center {
+	margin-left: 20%;
+	background-color: #fff;
+}
+
+textarea:hover {
+	border-color: #f90;
+}
+</style>
+<body>
+	<div id="content">
+		<div id="body">
+			<div id="writecomment">
+				<div id="center">
+					<div class="teacher-content-header teacher-comment-header">
+						<h1>课程评价</h1>
+					</div>
+					<form action="writeComment.do" method="post">
+						<textarea id="comment" rows="5" cols="60"></textarea>
+						<br> <input class="btn btn-primary" type="submit"
+							style="margin-left: 60%" name="提交评价" />
+					</form>
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

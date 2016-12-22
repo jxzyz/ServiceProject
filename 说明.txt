@@ -1,0 +1,7 @@
+此为购买功能：
+search.jsp为首页面，显示全部已上传的课程
+index.jsp为搜索页面，显示全部搜索到的信息
+details.jsp为课程详细页面
+
+注意：
+应从别的模块传stu_email的值进入search.jsp否则无法购买（即必须先登录后购买）
